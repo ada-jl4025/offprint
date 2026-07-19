@@ -1,0 +1,99 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  path="/research/"
+  title="Research"
+  description="An overview of my research — the questions, the methods, and what came out of them."
+>
+  <h1>Research</h1>
+
+  <div class="prose">
+    <h2>The first thread</h2>
+    <p>
+      This page is prose, not a list. That is the point of it: the publications
+      page already says what you produced, and the CV already says where you
+      were. What neither can do is explain why any of it was worth doing. A
+      reader who has landed here is deciding whether to email you, and the
+      thing that decides it is a clear account of a problem you find
+      interesting.
+    </p>
+    <p>
+      So write the problem first and the solution second. Say what was actually
+      hard — the part that took eight months and appears in the paper as a
+      single sentence in section 3.2. Name the people you worked with and
+      <a href="https://example.edu">link them</a>; academia runs on those
+      threads, and a reader following one is a reader who has decided you are
+      real.
+    </p>
+    <p>
+      The first paragraph of a <code>.prose</code> block opens with a drop cap.
+      That is deliberate, and it is why these pages want a real opening
+      sentence rather than a heading followed by a bulleted list.
+    </p>
+
+    <figure class="figure--media">
+      <img
+        src="/img/figure-wide.jpg"
+        alt="Placeholder figure — replace with a photograph, plot, or diagram"
+        width="1024"
+        height="768"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        A figure sits on its own mount, the way a plate is tipped into a book.
+        Captions are worth writing properly — say what is in the frame and
+        when, not just what the file is called.
+      </figcaption>
+    </figure>
+
+    <h2>The second thread</h2>
+    <p>
+      Most people have more than one. Give each its own heading, keep each to
+      three or four paragraphs, and put them in the order you would want to be
+      asked about them rather than in chronological order.
+    </p>
+    <p>
+      Where a paper exists, link it inline —
+      <a href="https://arxiv.org/abs/0000.00000">the preprint</a>, the
+      published version in <cite>Journal of Relevant Things</cite>, and the
+      code. A reader who wants the detail should never have to go back to the
+      publications page to find it.
+    </p>
+
+    <figure class="figure--media figure--pair figure--portrait">
+      <div class="figure__grid">
+        <img
+          src="/img/figure-tall-a.jpg"
+          alt="Placeholder figure — replace or delete"
+          width="768"
+          height="1024"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src="/img/figure-tall-b.jpg"
+          alt="Placeholder figure — replace or delete"
+          width="768"
+          height="1024"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <figcaption>
+        Two figures on one mount. Add <code>figure--trio</code> alongside
+        <code>figure--pair</code> for three; the grid collapses to a single
+        column on a narrow screen either way.
+      </figcaption>
+    </figure>
+
+    <h2>What you are working on now</h2>
+    <p>
+      Finish on the open problem rather than the finished one. It dates better,
+      it is the honest answer to what you would do with more time, and it is
+      the paragraph most likely to start a collaboration.
+    </p>
+  </div>
+</Base>

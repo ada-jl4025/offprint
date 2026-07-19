@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  path="/beyond/"
+  title="Beyond research"
+  description="Teaching, service, and the things that have nothing to do with the job."
+>
+  <h1>Beyond research</h1>
+
+  <div class="prose">
+    <p>
+      The page for everything that does not belong on a CV but is still true.
+      Teaching and outreach, the committee you sit on, the sport you have not
+      quit, the thing you built for no reason. It is usually the page people
+      remember, and it costs nothing to keep honest and short.
+    </p>
+
+    <h2>Teaching and service</h2>
+    <p>
+      Mentoring, outreach, reviewing, the seminar you organise. Name the
+      programme and link it — this is work, and it is the work most likely to
+      go unrecorded anywhere else.
+    </p>
+
+    <figure class="figure--media figure--pair">
+      <div class="figure__grid">
+        <img
+          src="/img/figure-wide.jpg"
+          alt="Placeholder figure — replace or delete"
+          width="1000"
+          height="750"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src="/img/figure-wide-b.jpg"
+          alt="Placeholder figure — replace or delete"
+          width="1000"
+          height="750"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <figcaption>
+        Where and when, in that order. A caption that reads “IMG_4127” is a
+        caption you have not written yet.
+      </figcaption>
+    </figure>
+
+    <h2>Everything else</h2>
+    <p>
+      Keep a couple of short sections rather than one long one. The mount also
+      takes a <code>&lt;video&gt;</code> or an <code>&lt;iframe&gt;</code> —
+      give either a <code>width</code> and <code>height</code> so the page does
+      not jump while it loads, and set <code>preload="none"</code> on video so
+      a visitor who never presses play never pays for it.
+    </p>
+
+    <h2>A section you should delete</h2>
+    <p>
+      Along with this whole page, if it is not for you. Remove
+      <code>src/pages/beyond.astro</code> and drop the matching entry from
+      <code>nav</code> in <code>src/data/site.js</code>; nothing else refers to
+      it.
+    </p>
+  </div>
+</Base>
